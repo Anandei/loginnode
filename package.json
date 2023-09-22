@@ -1,0 +1,20 @@
+{
+  "name": "loginnode",
+  "version": "1.0.0",
+  "description": "Its my first created own code for node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anandei/loginnode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anandei/loginnode/issues"
+  },
+  "homepage": "https://github.com/Anandei/loginnode#readme"
+}
