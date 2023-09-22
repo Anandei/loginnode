@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* public/style.css */
 
 body {
@@ -23,10 +24,42 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b
 }
 
 input[type="text"],
 input[type="password"] {
+<<<<<<< HEAD
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -50,5 +83,26 @@ a {
 .error {
   color: red;
   margin-top: 10px;
+=======
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b
 }
 

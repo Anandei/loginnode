@@ -18,4 +18,7 @@ EXPOSE 4002
 
 # Define the command to run your application
 CMD [ "node", "app.js" ]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b

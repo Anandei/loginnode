@@ -1,10 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "my-login-app",
   "version": "1.0.0",
+=======
+  "name": "loginnode",
+  "version": "1.0.0",
+  "description": "Its my first created own code for node js",
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,13 +23,25 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {},
+=======
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Anandei/loginnode.git"
   },
+<<<<<<< HEAD
   "bugs": {
     "url": "https://github.com/Anandei/loginnode/issues"
   },
   "homepage": "https://github.com/Anandei/loginnode#readme",
   "description": ""
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anandei/loginnode/issues"
+  },
+  "homepage": "https://github.com/Anandei/loginnode#readme"
+>>>>>>> 5c024b762a4da89b73b3db252b574a31c73d101b
 }
