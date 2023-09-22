@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node
+spec:
+  replicas: 2  # Set the desired number of replicas
+  selector:
+    matchLabels:
+      app: my-login-app
+  template:
+    metadata:
+      labels:
+        app: my-login-app
+    spec:
+      containers:
+        - name: my-login-app
+          image: nodeimage:latest  # Replace with your Docker image details
+          ports:
+            - containerPort: 4002  # Replace with the port your app listens on
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: node
+spec:
+  selector:
+    app: my-login-app
+  ports:
+    - protocol: TCP
+      port: 4002  # The port to access your application
+      targetPort: 4002  # The port your app listens on
+  type: LoadBalancer  # Change this to NodePort or ClusterIP as needed
+
