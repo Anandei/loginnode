@@ -72,8 +72,8 @@ app.post('/login',
 );
 
 app.get('/logout', (req, res) => {
-  req.logout();
-  res.redirect('/');
+  req.logout(() => {}); // Provide an empty callback function
+  res.redirect('/?message=Logged%20out%20successfully');
 });
 
 function isAuthenticated(req, res, next) {
